@@ -1,0 +1,4 @@
+interface:
+  display_name: "动态表情包制作"
+  short_description: "从九宫格与角色参考制作循环 GIF，补齐动作并检查帧数和衔接"
+  default_prompt: "使用 $animated-sticker 把我的参考图片做成动作连贯、无限循环、可下载的 GIF 表情包。"
