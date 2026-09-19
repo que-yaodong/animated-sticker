@@ -1,5 +1,7 @@
 # GIF 合成脚本
 
+已有原图的裁切和时间清单使用本页的 `sticker.py`。小幅姿势运动补间另见 [动作指南](motion.md) 和 `scripts/smooth_loop.py`；背景分离及验收见 [背景指南](background-and-qa.md)。基础工具不生成新姿势，可选运动工具也不能替代缺失的真实姿势。
+
 依赖 Python 3.10+、Pillow。无需图像生成 API 或网络。脚本支持图片、规则网格、明确裁切框与 GIF 解码帧；不自动推断动作顺序或白边。
 
 ```text
